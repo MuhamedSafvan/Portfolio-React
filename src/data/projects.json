@@ -1,0 +1,109 @@
+[
+  {
+    "title": "Coffee Management App",
+    "imageSrc": "projects/Coffee-App.jpeg",
+    "description": "Excited to announce my latest project, a simple Coffee Shop Management System, built using Flutter for the front end and Node.js with MongoDB for the backend. This app aims to streamline operations for coffee shops, providing a user-friendly experience for both customers and staff.",
+    "skills": [
+      "Flutter",
+      "Node.js",
+      "MongoDB",
+      "AWS-EC2",
+      "Express.js"
+    ],
+    "demo": "https://www.linkedin.com/posts/safvannp_flutter-nodejs-mongodb-activity-7212780539286552576-OcZ9?utm_source=share&utm_medium=member_desktop"
+  },
+  {
+    "title": "Netflix Clone",
+    "imageSrc": "projects/netflix.png",
+    "description": "An app built with ReactJS is a web application that mimics the core functionalities and appearance of Netflix. It allows users to browse a catalog of movies and TV shows, view details about each title, and watch trailers",
+    "skills": [
+      "React",
+      "CSS"
+    ],
+    "demo": "https://netflix-clone-react-puce.vercel.app",
+    "source": "https://github.com/MuhamedSafvan/Netflix-Clone-React.git"
+  },
+  {
+    "title": "Instagram Clone",
+    "imageSrc": "projects/Instagram-Poster.png",
+    "description": "Introducing a sleek Instagram Clone crafted with Flutter. With its intuitive interface, users can seamlessly browse, upload, and engage with photos and videos, just like on the original platform. Experience the essence of Instagram with this versatile Flutter creation.",
+    "skills": [
+      "Flutter",
+      "Firebase",
+      "Provider",
+      "Dio"
+    ]
+  },
+  {
+    "title": "WhatsApp Clone",
+    "imageSrc": "projects/WhatsApp-Poster.png",
+    "description": "Presenting a WhatsApp Clone designed with Flutter. This powerful application mirrors the functionality of WhatsApp, allowing users to chat, share media, and connect with friends effortlessly. Enjoy the familiar WhatsApp experience with the convenience and flexibility of Flutter technology.",
+    "skills": [
+      "Flutter",
+      "Firebase",
+      "Node.js",
+      "Provider",
+      "Dio"
+    ]
+  },
+  {
+    "title": "Amazon Clone",
+    "imageSrc": "projects/Amazon-Poster.png",
+    "description": "Introducing my latest creation: a Flutter-powered Amazon Clone showcasing a vast array of products for browsing pleasure. Explore an extensive catalog of items, curated to emulate the Amazon experience, providing users with a seamless platform for discovering new products and trends.",
+    "skills": [
+      "Flutter",
+      "Node.js",
+      "MongoDB",
+      "Provider",
+      "Dio"
+    ]
+  },
+  {
+    "title": "News Feed App",
+    "imageSrc": "projects/News-App-Poster.png",
+    "description": "Introducing my newest creation: a News Feed App powered by Flutter, delivering a personalized and dynamic news experience. Stay informed and engaged with the latest headlines, articles, and updates tailored to your interests. Explore a diverse range of topics and sources, all within a sleek and intuitive interface designed for seamless browsing and discovery.",
+    "skills": [
+      "Flutter",
+      "Node.js",
+      "MongoDB",
+      "Provider",
+      "BLoC",
+      "Dio"
+    ]
+  },
+  {
+    "title": "Restaurant App",
+    "imageSrc": "projects/Restaurant-App-Poster.png",
+    "description": "Introducing my latest project: a Restaurant App revolutionized with Flutter, offering a delightful dining experience at your fingertips. Explore a curated selection of restaurants, browse menus, and make reservations effortlessly. With intuitive navigation and vibrant visuals, discover new culinary delights and plan your next dining adventure with ease.",
+    "skills": [
+      "Flutter",
+      "REST",
+      "Provider",
+      "Dio"
+    ]
+  },
+  {
+    "title": "Salon App",
+    "imageSrc": "projects/Salon-App-Poster.png",
+    "description": "Presenting my latest creation: a Salon Service Booking App re-imagined with Flutter, bringing convenience and style to your beauty routine. Browse a variety of services, from haircuts to spa treatments, and book appointments seamlessly. With an intuitive interface and real-time availability, scheduling your next salon visit has never been easier. Experience the ultimate in beauty and relaxation with this innovative Flutter Salon Service Booking App.",
+    "skills": [
+      "Flutter",
+      "REST",
+      "Provider",
+      "Dio",
+      "Firebase"
+    ]
+  },
+  {
+    "title": "Weather App",
+    "imageSrc": "projects/Weather-App-Poster.png",
+    "description": "Announcing my latest project: a Weather App crafted with Flutter, delivering accurate forecasts and real-time weather updates. With a user-friendly interface, users can effortlessly check current conditions, view forecasts, and track weather patterns with ease. Stay informed and prepared for any forecasted conditions with this intuitive Flutter Weather App.",
+    "skills": [
+      "Flutter",
+      "Weather-API",
+      "Provider",
+      "Dio",
+      "BLoC"
+    ]
+  }
+]
