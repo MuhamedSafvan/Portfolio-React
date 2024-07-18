@@ -1,61 +1,97 @@
 @import "../../vars.css";
 
-.container {
+.card-container {
   display: flex;
   flex-direction: column;
   border-radius: 10px;
   background: linear-gradient(180deg, #576cbc 0%, #132a53 100%);
-  box-shadow: 0 16px 14px 0 #04152d;
-  padding: 18px 24px;
+  box-shadow: 0 16px 14px 0 rgba(4, 21, 45, 0.3);
   max-width: 345px;
+  width: 100%;
+  overflow: hidden;
+  align-items: stretch;
+  /* Ensure all cards stretch to match height of tallest one */
+}
+
+.image-container {
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%;
+  /* 16:9 aspect ratio */
+  background-color: lightblue;
+  overflow: hidden;
 }
 
 .image {
-  margin-bottom: 26px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.card-content {
+  padding: 18px 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  /* Ensure card content fills available height */
 }
 
 .title {
-  font-size: 25px;
-  font-weight: 700;
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 20px;
+  margin-bottom: 10px;
 }
 
 .description {
-  margin-top: 6px;
-  font-size: 25px;
-  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  /* Show maximum of 3 lines */
+  -webkit-box-orient: vertical;
+  margin-bottom: 10px;
 }
 
 .skills {
-  width: 100%;
-  margin-top: 14px;
   display: flex;
-  flex-direction: row;
   flex-wrap: wrap;
   gap: 6px;
-  list-style: none;
+  margin-bottom: 10px;
 }
 
 .skill {
-  font-size: 25px;
-  font-weight: 400;
-  border-radius: 100px;
-  background: var(--color-dark);
-  padding: 2px 22px;
+  font-size: 14px;
+  font-weight: 500;
+  color: #ffffff;
+  background-color: #333333;
+  border-radius: 20px;
+  padding: 6px 12px;
 }
 
-.links {
-  width: 100%;
-  margin-top: 26px;
+.card-buttons {
+  margin-top: auto;
+  /* Push buttons to the bottom */
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
-.link {
+.button {
   text-decoration: none;
-  color: var(--color-text);
-  font-size: 30px;
-  font-weight: 600;
-  border-radius: 100px;
-  background: var(--color-primary);
-  padding: 1px 22px;
+  color: #ffffff;
+  font-weight: bold;
+  padding: 8px 16px;
+  border-radius: 20px;
+  background-color: #576cbc;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #132a53;
 }

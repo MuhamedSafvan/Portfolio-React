@@ -38,6 +38,13 @@
   gap: 25px;
 }
 
+.link img {
+  width: 30px;
+  /* Set a specific size for icons */
+  height: 30px;
+  /* Set a specific size for icons */
+}
+
 .link a {
   color: var(--color-text);
   text-decoration: none;
@@ -49,6 +56,8 @@
 @media screen and (max-width: 830px) {
   .container {
     flex-direction: column;
+    align-items: center;
+    padding: 20px;
     gap: 23px;
   }
 
@@ -58,7 +67,55 @@
     align-items: center;
   }
 
+  .text h2 {
+    font-size: 40px;
+    /* Adjust font size for smaller screens */
+    text-align: center;
+    /* Center the text */
+  }
+
+  .text p {
+    font-size: 20px;
+    /* Adjust font size for smaller screens */
+    text-align: center;
+    /* Center the text */
+  }
+
   .links {
     align-items: center;
+    gap: 20px;
+  }
+
+  .link a {
+    font-size: 20px;
+    /* Adjust font size for smaller screens */
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .container {
+    padding: 15px;
+  }
+
+  .text h2 {
+    font-size: 30px;
+    /* Further adjust font size for very small screens */
+  }
+
+  .text p {
+    font-size: 16px;
+    /* Further adjust font size for very small screens */
+  }
+
+  .link a {
+    font-size: 18px;
+    /* Further adjust font size for very small screens */
+  }
+
+  .link img {
+    width: 20px;
+    /* Adjust icon size for very small screens */
+    height: 20px;
+    /* Adjust icon size for very small screens */
   }
 }

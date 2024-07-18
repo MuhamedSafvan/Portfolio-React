@@ -12,15 +12,60 @@
   font-weight: 700;
   letter-spacing: 1.75px;
   text-transform: uppercase;
+  text-align: center;
+  /* Center align the title */
+  margin-bottom: 37px;
+  /* Adjust margin bottom for spacing */
 }
 
 .projects {
-  margin-top: 37px;
   display: flex;
-  flex-direction: row;
   flex-wrap: wrap;
-  align-items: center;
   justify-content: center;
+  /* Center align projects horizontally */
   gap: 15px;
   width: 100%;
+}
+
+/* Projects.module.css */
+.dismissibleContainer {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+  z-index: 1000;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.dismissibleContent {
+  position: relative;
+  max-width: 600px;
+  width: 100%;
+  background-color: #333;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 16px 14px 0 rgba(4, 21, 45, 0.3);
+}
+
+.dismissButton {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: none;
+  border: none;
+  color: white;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.projectGrid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
 }
